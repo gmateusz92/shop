@@ -160,5 +160,7 @@ AUTHENTICATION_BACKENDS = [
 
 ]
 
+LOGIN_REDIRECT_URL ='/'
+
 #Cripsy forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
