@@ -41,14 +41,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'crispy_forms'
+    'crispy_forms',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'app',
     'login_app',
-    'crispy_forms'
+    #'crispy_forms'
 ]
 #custom user model
 
@@ -163,4 +163,4 @@ AUTHENTICATION_BACKENDS = [
 LOGIN_REDIRECT_URL ='/'
 
 #Cripsy forms
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+#CRISPY_TEMPLATE_PACK = 'bootstrap4'
